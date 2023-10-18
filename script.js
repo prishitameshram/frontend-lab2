@@ -21,12 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 function showAlert() {
     alert('Please mail me at pmeshram@hawk.iit.edu');
     }
-
-    // Add a click event listener to the "Contact Me" button
- contactButton.addEventListener('click', showAlert);
- const contactButton = document.getElementById('contactButton');
     
-
 document.getElementById("screen-width").innerHTML = 
 "Screen width is " + screen.width;
 
