@@ -20,11 +20,12 @@ document.addEventListener('DOMContentLoaded', function() {
         alert('Please mail me at pmeshram@hawk.iit.edu');
     }
 
-    const contactButton = document.getElementById('contactButton');
+});
+
+ const contactButton = document.getElementById('contactButton');
     
     // Add a click event listener to the "Contact Me" button
     contactButton.addEventListener('click', showContactAlert);
-});
 
 document.getElementById("screen-width").innerHTML = 
 "Screen width is " + screen.width;
