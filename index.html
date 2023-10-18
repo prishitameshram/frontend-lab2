@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Artistic Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="header-left">
+                <h1><strong>Prishita Meshram</strong></h1>
+                <p>UX Designer</p>
+            </div>
+            <div class="header-right">
+                <ul>
+                    <li><a class="nav-link" href="#about">About</a></li>
+                    <li><a class="nav-link" href="#skills">Skills</a></li>
+                    <li><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section id="parallax" class="parallax">
+        <div class="parallax-content">
+            <h2>Parallax Effect</h2>
+        </div>
+    </section>
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>I take great pleasure in upgrading experiences through careful aesthetic curation, brainstorming, and experimenting to find the best answers. I enjoy using yoga, meditation, and writing to broaden and strengthen my perspective.</p>
+        <p>Email: <a href="mailto:pmeshram@hawk.iit.edu">pmeshram@hawk.iit.edu</a></p>
+        <button class="contact-button" onclick="showContactAlert()">Contact Me</button>
+        <p id="screen-width">Screen Width: <span id="screen-width-value"></span></p>
+        <div class="image-container">
+            <img class="hover-image" src="C:\Users\prish\Downloads\lab2 -FED\ux.png" alt="UX image">
+            <img class="hover-image" src="C:\Users\prish\Downloads\lab2 -FED\bg.png" alt="Girl Designing">
+        </div>        
+    </section>
+    <section id="skills" class="section">
+        <h2>HTML, CSS, and JavaScript Features</h2>
+        <div class="feature">
+            <h3>HTML Features</h3>
+            <ul>
+                <li>Semantic HTML elements for improved structure and accessibility.</li>
+                <li>Anchor links for smooth scrolling to different sections.</li>
+                <li>Usage of image tags to display images.</li>
+                <li>Custom data attributes to store additional information.</li>
+                <li>Clickable email links using the `mailto:` scheme for direct emailing.</li>
+            </ul>
+        </div>
+        <div class="feature">
+            <h3>CSS Features</h3>
+            <ul>
+                <li>Styling with CSS for layout, padding, background colors, and border radius.</li>
+                <li>Navigation styling with background color and text formatting.</li>
+                <li>Button styling with background color and hover effects.</li>
+                <li>Image styling with a hover effect to scale up the images.</li>
+                <li>Media queries for responsive design, ensuring proper display on smaller screens.</li>
+            </ul>
+        </div>
+        <div class="feature">
+            <h3>JavaScript Features</h3>
+            <ul>
+                <li>Interactive navigation with JavaScript to highlight the active menu item.</li>
+                <li>Button functionality to show/hide the "About Me" section when clicking a button.</li>
+                <li>Alert function when clicked on 'contact me' button in about section.</li>
+                <li>Geo location API.</li>
+                <li>Screen Width: <span id="screenWidth">Fetching screen width...</span></li>
+            </ul>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:pmeshram@hawk.iit.edu">pmeshram@hawk.iit.edu</a></p>
+        <p>Phone: (123) 456-7890</p>
+        <p id="location">Fetching location...</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

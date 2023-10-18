@@ -1,0 +1,194 @@
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+nav {
+    background-color: #f0ebd8;
+    color: #3e5c76;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header {
+    padding: 20px 40px;
+    background-color: #f0ebd8;
+    color: #3e5c76;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-left {
+    padding: 10px;
+}
+
+.header-left h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 28px;
+}
+
+.header-left p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.header-right ul {
+    list-style: none;
+    padding: 0;
+}
+
+.header-right li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.nav-link {
+    color: #3e5c76;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.parallax {
+    background-image: url("bg3.jpg"); 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    min-height: 500px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.parallax-content {
+    background: rgba(62, 92, 118, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: #fff;
+    text-align: center;
+}
+
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+h1, h2, h3 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    margin: 0 10px;
+}
+
+.hover-image:hover {
+    transform: scale(1.1);
+}
+
+.contact-button {
+    background-color: #3e5c76; /* Background color for the button */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding to adjust the button size */
+    border: none;
+    border-radius: 5px; /* Rounded corners for a button effect */
+    cursor: pointer;
+    font-weight: bold; /* Make the text bold */
+    font-size: 18px; /* Increase the font size */
+    transition: background-color 0.3s; /* Smooth background color transition */
+
+    /* Additional styles for button hover state */
+}
+
+.contact-button:hover {
+    background-color: #27425f; /* Darker background color on hover */
+}
+
+/* Responsive Media Query for Shorter Screens */
+@media (max-height: 500px) {
+    .header {
+        padding: 20px 2%;
+    }
+
+    .header-left h1 {
+        font-size: 24px;
+    }
+
+    .header-left p {
+        font-size: 16px;
+    }
+
+    .parallax {
+        min-height: 300px;
+    }
+
+    .parallax-content {
+        font-size: 24px;
+    }
+
+    h1, h2, h3 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container img {
+        margin: 10px 0;
+    }
+}
