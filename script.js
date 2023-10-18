@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const navLinks = document.querySelectorAll('nav ul li a');
+    const navLinks = document.querySelectorAll('.nav-link'); // Adjusted selector
 
     navLinks.forEach(link => {
         link.addEventListener('click', function() {
@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    const contactButton = document.querySelector('.contact-button');
+    const aboutButton = document.getElementById('aboutButton');
 
-    contactButton.addEventListener('click', function() {
+    aboutButton.addEventListener('click', function() {
         showAlert();
     });
 
