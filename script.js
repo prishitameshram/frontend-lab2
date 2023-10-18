@@ -8,11 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    const aboutButton = document.getElementById('aboutButton');
+    const contactButton = document.querySelector('.contact-button');
 
-    aboutButton.addEventListener('click', function() {
-        const aboutSection = document.getElementById('about');
-        aboutSection.style.display = 'block';
+    contactButton.addEventListener('click', function() {
+        showAlert();
     });
 
     // Function to display the contact alert
