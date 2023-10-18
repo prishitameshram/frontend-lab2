@@ -18,14 +18,14 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Function to display the contact alert
-    function showContactAlert() {
-        alert('Please mail me at pmeshram@hawk.iit.edu');
+function showAlert() {
+    alert('Please mail me at pmeshram@hawk.iit.edu');
     }
 
+    // Add a click event listener to the "Contact Me" button
+ contactButton.addEventListener('click', showAlert);
  const contactButton = document.getElementById('contactButton');
     
-    // Add a click event listener to the "Contact Me" button
-    contactButton.addEventListener('click', showContactAlert);
 
 document.getElementById("screen-width").innerHTML = 
 "Screen width is " + screen.width;
