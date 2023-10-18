@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', function() {
         aboutSection.style.display = 'block';
     });
 
-    // Function to display the contact alert
+});
+
+// Function to display the contact alert
     function showContactAlert() {
         alert('Please mail me at pmeshram@hawk.iit.edu');
     }
-
-});
 
  const contactButton = document.getElementById('contactButton');
     
